@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background: linear-gradient(135deg, #4a90e2, #4bc0c8);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.1rem;
+}
+
+/* Section Titles */
+section h2 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Table Container */
+.table-container iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+/* Image Grid Styling */
+.chart-img {
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Row Styling for Charts */
+.row .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Styling for Each Chart Section */
+.card {
+    background-color: #f0bd96;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Section Backgrounds */
+#product-metrics, #monthly-metrics, #top-cities {
+    padding: 2rem;
+    background-color: rgba(128, 208, 235, 0.584);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Table Styling for Top Cities */
+.table {
+    background-color: #f1f4f9;
+    color: #333;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Optional Bootstrap CSS for easier styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Sales Analysis Dashboard</h1>
+        <p>An overview of product metrics, monthly trends, and top-performing cities</p>
+    </header>
+
+    <!-- Product Metrics Section -->
+    <section id="product-metrics" class="container my-5">
+        <h2>Product Metrics</h2>
+        <p class="text-center text-muted">Summary of revenue, units sold, average price, and order count per product.</p>
+        <div class="table-container mb-4">
+            <iframe src="product_metrics_table.html" width="100%" height="400px"></iframe>
+        </div>
+
+        <!-- Image grid for Product Metrics section -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/top_revenue_products.png" alt="Top 10 Products by Revenue" class="img-fluid chart-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Units Sold vs. Average Price.png" alt="Units Sold vs. Average Price" class="img-fluid chart-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Top products by average price.png" alt="Top 10 Products by Average Price per Unit" class="img-fluid chart-img">
+                </div>
+            </div>
+            
+        </div>
+
+        <!--rank pruduct by metrics-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Bottom 10 products by composite rank.png" alt="Bottom 10 products by composite rank.png" class="img-fluid chart-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Top 10 products by composite rank.png" alt="Top 10 products by composite rank.png" class="img-fluid chart-img">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Monthly Metrics Section -->
+    <section id="monthly-metrics" class="container my-5">
+        <h2>Monthly Metrics</h2>
+        <p class="text-center text-muted">Analysis of revenue, units sold, and average price trends over time.</p>
+        <div class="table-container mb-4">
+            <iframe src="monthly_metrics_table.html" width="100%" height="400px"></iframe>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Revenue Over Time.png" alt="Revenue Over Time" class="img-fluid chart-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/units Sold Over Time.png" alt="Units Sold Over Time" class="img-fluid chart-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./images/Average Price Over Time.png" alt="Average Price Over Time" class="img-fluid chart-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Cities Section -->
+    <section id="top-cities" class="container my-5">
+        <h2>Top Cities by Sales</h2>
+        <p class="text-center text-muted">Top 5 cities with the highest total sales.</p>
+        <div class="table-container mb-4">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Total Sales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Populate with data from the analysis -->
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <img src="./images/Top 5 Cities by Sales.png" alt="Top 5 Cities by Sales" class="img-fluid chart-img">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; WDA_S24 Project |remnd_335439 -rima_324498 -Sahar_332427 -ahmad_332857 -reem_335512</p>
+    </footer>
+</body>
+</html>
